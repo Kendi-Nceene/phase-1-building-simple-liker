@@ -2,6 +2,9 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
+const grabattribute = document.querySelector("#modal");
+grabattribute.setAttribute("class","hidden");
+
 const articleHearts = document.querySelectorAll(".like-glyph");
 
 function likeCallback(e) {
